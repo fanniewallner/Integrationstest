@@ -1,3 +1,3 @@
-import { init } from "./movieApp";
+import { init } from "./movieApp"; //importerar init
 
-init();
+init(); //callar init
