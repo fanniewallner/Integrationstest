@@ -14,5 +14,4 @@ test("should sort test from descending a-B", () => {
     //Assert
     expect(sortedMovies[0].Title).toBe("Harry Potter 1");
     expect(sortedMovies[2].imdbID).toBe("1093");
-
 });

@@ -6,14 +6,6 @@ export const mockData: IMovie[] = [
     {Title:"Harry Potter 3", imdbID:"1093", Type:"movie",Poster:"url3", Year:"2003"},
 ];
 
-/*export const getData = async (): Promise<IMovie[]> => { 
-    return new Promise ((resolve, reject) => {  
-        let searchText:string = "harry";
-        if(searchText) resolve(mockData);
-        else reject("skriv in ett ord för att söka");
-    });
-};*/
-
 export const getData = async (searchText:string): Promise<IMovie[]> => { 
     return new Promise ((resolve, reject) => {  
         if(searchText.length > 0) {
